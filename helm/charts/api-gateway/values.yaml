@@ -8,8 +8,8 @@ app:
   replicas: 1
 
 image:
-  repository: quay.io/datawire
-  tag: 0.40.0
+  repository: quay.io/emissaryingress/emissary
+  tag: 3.10.0
   pullPolicy: IfNotPresent
 
 service:
